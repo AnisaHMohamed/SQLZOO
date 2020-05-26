@@ -1,3 +1,18 @@
+-- Simple SELECT
+-- The simplest SELECT commands involve a single table:
+-- SQL	Result
+-- SELECT name, population
+--   FROM bbc
+--  WHERE region='North America'
+-- name	population
+-- Canada	32000000
+-- United States of America	295000000
+-- The SELECT line determines which columns to show - in this case name and population, both of which are columns of the bbc table.
+-- The WHERE clause determines which rows to show
+-- The SELECT statement may involve data from more than one table using a JOIN or a UNION.
+-- SELECT statements may nested - that is the output from one SELECT may be the input to another SELECT.
+-- The output from a SELECT may be added to another table using INSERT .. SELECT
+-- The select statement may aggregate values using a SELECT .. GROUP BY clause
 -- 1.
 -- The example uses a WHERE clause to show the population of 'France'. Note that strings (pieces of text that are data) should be in 'single quotes';
 -- world
